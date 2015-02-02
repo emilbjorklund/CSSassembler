@@ -1,0 +1,12 @@
+[
+{ 
+    "keys": ["super+ctrl+c"],
+    "command": "css_assembler",
+    "context": [{ 
+        "key": "selector",
+        "operator": "equal",
+        "operand": "source.css", 
+        "match_all": true 
+    }],
+}
+]
